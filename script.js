@@ -9,5 +9,5 @@ image.addEventListener('click', () => {
     image.src = images[1];
     setTimeout(() => {
         image.src = images[0];
-    }, 300); // 将延迟时间改为0.01秒
+    }, 100); // 将延迟时间改为0.01秒
 });
