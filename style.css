@@ -1,15 +1,6 @@
-#container {
-    text-align: center;
-}
-
-#image {
-    width: 500px;
-    height: 500px;
-    cursor: pointer;
-    transition: opacity 0.5s ease;
-    display: inline-block;
-}
-
-#click-count {
-    text-align: center;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
